@@ -18,7 +18,10 @@ browser1.implicitly_wait(15)
 
 # replace with not deprecated options
 
-browser1.window_handles()
+browser1.window_handles
 len(browser1.window_handles)
+handles = browser1.window_handles
+browser1.switch_to.window(handles[0])
 
+#window handles(tabs) aren't called in the same order that they are displayed in
 
