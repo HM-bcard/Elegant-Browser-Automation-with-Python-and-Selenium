@@ -17,3 +17,8 @@ browser1.implicitly_wait(15)
 
 
 # replace with not deprecated options
+
+browser1.window_handles()
+len(browser1.window_handles)
+
+
